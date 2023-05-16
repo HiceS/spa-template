@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": { "source.fixAll": true,
+        "source.fixAll.eslint": true },
+    "prettier.eslintIntegration": true,
+    "prettier.stylelintIntegration": true,
+    "javascript.format.enable": false,
+    "[javascript]": { "editor.formatOnSave": false },
+    "[typescript]": {
+        "editor.formatOnSave": false
+    },
+    "typescript.preferences.quoteStyle": "double"
+}

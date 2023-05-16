@@ -1,0 +1,42 @@
+@import "variables.scss";
+@import "media-queries.scss";
+
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: $background-color;
+}
+
+body {
+    margin: 0;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: $background-color !important;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    transition: background-color 200ms ease;
+    background-color: $color-2;
+    &:hover {
+        background-color: $color-1;
+    }
+}

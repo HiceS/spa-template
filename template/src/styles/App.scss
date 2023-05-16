@@ -1,0 +1,27 @@
+@import "media-queries.scss";
+@import "variables.scss";
+
+.App {
+    box-sizing: border-box;
+    background-color: $background-color;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 5rem;
+    padding-top: 3rem;
+
+    @include lt-lg {
+        padding: 2.5rem;
+    }
+
+    max-width: 3000px;
+
+    // may need to allow this to grow later
+    // might be good for scrolling because of the bottom bar
+    min-height: 100svh;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
